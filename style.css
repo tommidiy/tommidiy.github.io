@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Asset&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Blaka+Ink&family=Bonbon&family=Butcherman&family=Butterfly+Kids&family=Bytesized&family=Caesar+Dressing&family=Chokokutai&family=Coral+Pixels&family=Creepster&family=DM+Serif+Text:ital@0;1&family=Danfo&family=DotGothic16&family=Doto:wght@100..900&family=Eater&family=Foldit:wght@100..900&family=Frijole&family=Geostar&family=Hachi+Maru+Pop&family=Hanalei&family=Honk&family=Italianno&family=Jacquard+12+Charted&family=Jacquarda+Bastarda+9&family=Kablammo&family=Kalnia+Glaze:wght@100..700&family=Knewave&family=Libre+Barcode+39+Text&family=Micro+5+Charted&family=Monofett&family=Monoton&family=Nabla&family=Nosifer&family=Palette+Mosaic&family=Pixelify+Sans:wght@400..700&family=Plaster&family=Playwrite+HR:wght@100..400&family=Press+Start+2P&family=Reem+Kufi+Fun:wght@400..700&family=Rock+3D&family=Rock+Salt&family=Rubik+Beastly&family=Rubik+Glitch&family=Rubik+Puddles&family=Rubik+Storm&family=Ruslan+Display&family=Sancreek&family=Snowburst+One&family=Tiny5&family=Train+One&family=Tsukimi+Rounded&family=Varela+Round&family=WindSong:wght@400;500&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+
+.jacquarda-bastarda-9-regular {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tiny5-regular {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bytesized-regular {
+    font-family: "Bytesized", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.267);
+    padding: 0px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.219);
+    text-align: center;
+    width: 300px;
+}
+
+.card h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.card h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.card svg {
+    display: block;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    color: #333;
+}
+
+.card a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.card button {
+    width: 100%;
+    padding: 10px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(71, 88, 241, 0.411);
+    color: black;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px #00000033;
+}
+
+.animated-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #fbf8cc, #fde4cf, #ffcfd2, #f1c0e8, #cfbaf0, #a3c4f3, #90dbf4, #8eecf5, #98f5e1, #b9fbc0);
+    background-size: 400% 400%;
+    z-index: -2;
+    /* Ensure it stays behind other content */
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Emoji container styling */
+.falling-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /* Prevent interaction with emojis */
+    z-index: -1;
+    /* Ensure it stays behind other content */
+}
+
+/* Emoji styling */
+.emoji {
+    position: absolute;
+    font-size: 2rem;
+    animation: fall 1s linear infinite;
+    opacity: 0.8;
+}
+
+.colored-text {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2rem;
+    white-space: nowrap;
+    position: absolute;
+    animation: fall 10s linear infinite;
+    opacity: 0.8;
+}
+
+/* Falling animation */
+@keyframes fall {
+    0% {
+        transform: translateY(-10vh) rotate(0deg);
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
