@@ -41,7 +41,7 @@ const pallets = [
     ["#f08080","#f4978e","#f8ad9d","#fbc4ab","#ffdab9"], //peach sorbet
     ["#70d6ff","#ff70a6","#ff9770","#ffd670","#e9ff70"], //pastel rainbow
     ["#7bdff2","#b2f7ef","#eff7f6","#f7d6e0","#f2b5d4"], //pastel fantasy
-    ["#90f1ef","#ffd6e0","#ffef9f","#c1fba4","#7bf1a8"], //refreshing spriong hues
+    ["#90f1ef","#ffd6e0","#ffef9f","#c1fba4","#7bf1a8"], //refreshing spring hues
     ["#d3f8e2","#e4c1f9","#f694c1","#ede7b1","#a9def9"], //pastel dreamland
     ["#5aa9e6","#7fc8f8","#f9f9f9","#ffe45e","#ff6392"], //pastel pop
     ["#ff69eb","#ff86c8","#ffa3a5","#ffbf81","#ffdc5e"] //summer splash

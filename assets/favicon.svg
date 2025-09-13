@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="gradient-1" bx:pinned="true">
+      <stop offset="0.5" style="stop-color: rgb(253, 215, 104);"/>
+      <stop offset="1" style="stop-color: rgba(253, 215, 104, 0);"/>
+    </linearGradient>
+    <linearGradient id="gradient-1-0" href="#gradient-1" gradientUnits="userSpaceOnUse" x1="267.74" y1="362.967" x2="267.74" y2="428.411" gradientTransform="matrix(0.178702, 1.067665, -5.382552, 0.896542, 2353.083557, -321.226187)"/>
+    <linearGradient id="gradient-1-1" href="#gradient-1" gradientUnits="userSpaceOnUse" x1="267.74" y1="362.967" x2="267.74" y2="428.411" gradientTransform="matrix(0.113476, 1.068345, -3.86302, 1.119476, 1885.858261, -489.394632)"/>
+    <linearGradient id="gradient-1-2" href="#gradient-1" gradientUnits="userSpaceOnUse" x1="267.74" y1="362.967" x2="267.74" y2="428.411" gradientTransform="matrix(0.11259, 1.068439, -3.895319, 1.125333, 1834.663236, -364.045539)"/>
+  </defs>
+  <ellipse style="fill: rgb(253, 139, 168); stroke-width: 0.827;" cx="350" cy="350" rx="350" ry="350"/>
+  <ellipse style="stroke-width: 0.827; fill: rgb(251, 242, 255);" cx="350" cy="350" rx="260" ry="260"/>
+  <path style="fill: none; stroke-width: 24.843; stroke-miterlimit: 1; stroke-linecap: round; stroke: rgb(199, 107, 197);" d="M 182.621 592.745 C 407.406 400.937 479.01 91.003 402.853 115.964 C 357.42 130.854 90.947 817.968 519.445 464.476"/>
+  <path style="stroke-linecap: round; fill: none; stroke: url(&quot;#gradient-1-0&quot;); stroke-width: 27.129px;" d="M 35.107 360.536 C 153.064 312.256 291.738 275.348 449.105 282.888"/>
+  <path style="fill-rule: nonzero; stroke-width: 27.129; stroke-miterlimit: 1; paint-order: fill; stroke: rgb(253, 215, 104); fill: rgb(253, 215, 104); transform-origin: 450.973px 332.545px;" d="M 501.333 369.298 C 500.163 355.399 582.327 219.334 586.968 212.836 C 593.573 203.59 634.894 362.357 614.04 365.718 C 590.543 369.506 489.922 292.915 492.522 280.041 C 494.693 269.29 662.368 260.198 667.96 268.906 C 672.062 275.3 502.336 381.245 501.333 369.298 Z"/>
+  <path style="stroke-linecap: round; stroke-width: 27.129; fill: none; stroke: url(&quot;#gradient-1-1&quot;); transform-box: fill-box; transform-origin: 50% 50%;" d="M 260.116 276.259 C 333.508 227.675 431.547 199.923 515.227 195.795" transform="matrix(0.965621, 0.259954, -0.259954, 0.965621, -0.000005, 0.000003)"/>
+  <path style="stroke-linecap: round; stroke-width: 27.129; fill: none; stroke: url(&quot;#gradient-1-2&quot;); transform-origin: 324.529px 363.516px;" d="M 196.974 403.748 C 270.365 355.164 368.404 327.412 452.084 323.284" transform="matrix(0.983949, 0.178452, -0.178452, 0.983949, 0.000001, 0.000003)"/>
+</svg>
