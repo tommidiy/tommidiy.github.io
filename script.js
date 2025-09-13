@@ -117,15 +117,12 @@ function makeItRain() {
     fallingElement.style.animationDuration = `${duration}s`;
     fallingContainer.appendChild(fallingElement);
 
-    setTimeout(
-        () => { fallingElement.remove(); },
-        duration * 1000
-    );
+    setTimeout(() => { fallingElement.remove(); },duration * 1000);
 }
 
 setInterval(makeItRain, 20);
 
-const titleFontSet = [
+const titleFontSet = [ //no i don't care that i'm downloading like 60 fonts for a gag on a links page, it looks cool
     `"Playwrite HR", cursive`,
     `"Coral Pixels", serif`,
     `"Press Start 2P", system-ui`,
@@ -180,23 +177,18 @@ const titleFontSet = [
     `"DM Serif Text", serif`
 ]
 shuffle(titleFontSet)
-const titleFontContainer = document.querySelector('.title-font-container');
-
 const svg = document.querySelector('svg');
 const text = svg.querySelector('text');
-
 titileFontIndex = 0
 function shuffleTitleFont() {
-    titleFontContainer.style.fontFamily = titleFontSet[titileFontIndex];
+    text.style.fontFamily = titleFontSet[titileFontIndex % titleFontSet.length];
     titileFontIndex ++
-    if(titileFontIndex >= titleFontSet.length){
-        titileFontIndex=0
-    }
-
-
     let bbox = text.getBBox();
     svg.setAttribute('viewBox', [bbox.x, bbox.y, bbox.width, bbox.height].join(' '));
-
 }
+titleFontSet.forEach(_ => {
+    shuffleTitleFont()
+}); //idk why but this fixes a rendering issue where the title is in the wrong spot
 
 setInterval(shuffleTitleFont, 200);
+
