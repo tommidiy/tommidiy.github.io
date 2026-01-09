@@ -131,7 +131,7 @@ function makeItRain() {
     setTimeout(() => { fallingElement.remove(); },duration * 1000);
 }
 
-setInterval(makeItRain, 20);
+setInterval(makeItRain, 200);
 
 const titleFontSet = [ //no i don't care that i'm downloading like 60 fonts for a gag on a links page, it looks cool
     `"Playwrite HR", cursive`,
