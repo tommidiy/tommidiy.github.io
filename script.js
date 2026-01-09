@@ -1,7 +1,13 @@
 buttons = [
-    { label: "diy ig", url:  "https://www.instagram.com/tommi.diy/" },
-    { label: "personal ig", url:  "https://www.instagram.com/code.thomas/" },
-    { label: "github", url:  "https://github.com/tommidiy" },
+    { label: "Release Chantal Petition", url:  "https://actionnetwork.org/petitions/surface-chantal-anicoche/" },
+    { label: "Release Chantal Statement", url:  "https://www.bayanusa.org/blog/release-chantal" },
+    { label: "Release Chantal Leaflet", url:  "https://static1.squarespace.com/static/66886d35f744d66b7141e374/t/6960032b99b728036d47b83f/1767899947384/Release+Polyeto+Pamphlet.pdf" },
+    { label: "Write a Letter", url:  "https://docs.google.com/forms/d/e/1FAIpQLSfUTbCl36uZXC4qSfU1Pj3A6qB7-UmPjFZmxpKiN09tgYcKfQ/viewform" },
+    { label: "AFP Video TW: Emotional Distress", url:  "https://www.instagram.com/reel/DTQBN7fCP1_/?igsh=NTc4MTIwNjQ2YQ==" },
+
+    // { label: "diy insta", url:  "https://www.instagram.com/tommi.diy/" },
+    // { label: "personal insta", url:  "https://www.instagram.com/code.thomas/" },
+    // { label: "github", url:  "https://github.com/tommidiy" },
     // { label: "linkedin", url:  "https://example.com" },
     // { label: "contact", url:  "https://example.com" }
 ]
@@ -85,12 +91,16 @@ function createEmoji(emojiText) {
 }
 
 const emojiSets = [
-    ['✨', '🍀', '💖'],
-    ['🌟', '🌷', '💕'],
-    ['💫', '🌱', '🫀'],
-    ['✨', '🌟', '💫'],
-    ['🍀', '🌷', '🌱'],
-    ['💖', '💕', '🫀']
+    ['🇵🇭', '🇵🇭', '🇵🇭'],
+    ['🇵🇭', '🇵🇭', '🇵🇭'],
+    ['🇵🇭', '🇵🇭', '🇵🇭']
+
+    // ['✨', '🍀', '💖'],
+    // ['🌟', '🌷', '💕'],
+    // ['💫', '🌱', '🫀'],
+    // ['✨', '🌟', '💫'],
+    // ['🍀', '🌷', '🌱'],
+    // ['💖', '💕', '🫀']
 ]
 
 const displaySet = randPick(emojiSets)
@@ -98,8 +108,9 @@ const displaySet = randPick(emojiSets)
 const fallingElements = [
     createEmoji(displaySet[0]),
     createEmoji(displaySet[1]),
-    createEmoji(displaySet[2]),
-    makeColorfulText('tommi.diy')
+    createEmoji(displaySet[2])
+    // ,
+    // makeColorfulText('tommi.diy')
 ];
 
 function randInterval(min, max) {
