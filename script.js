@@ -91,16 +91,12 @@ function createEmoji(emojiText) {
 }
 
 const emojiSets = [
-    ['🇵🇭', '🇵🇭', '🇵🇭'],
-    ['🇵🇭', '🇵🇭', '🇵🇭'],
-    ['🇵🇭', '🇵🇭', '🇵🇭']
-
-    // ['✨', '🍀', '💖'],
-    // ['🌟', '🌷', '💕'],
-    // ['💫', '🌱', '🫀'],
-    // ['✨', '🌟', '💫'],
-    // ['🍀', '🌷', '🌱'],
-    // ['💖', '💕', '🫀']
+    ['✨', '🍀', '💖'],
+    ['🌟', '🌷', '💕'],
+    ['💫', '🌱', '🫀'],
+    ['✨', '🌟', '💫'],
+    ['🍀', '🌷', '🌱'],
+    ['💖', '💕', '🫀']
 ]
 
 const displaySet = randPick(emojiSets)
@@ -108,9 +104,8 @@ const displaySet = randPick(emojiSets)
 const fallingElements = [
     createEmoji(displaySet[0]),
     createEmoji(displaySet[1]),
-    createEmoji(displaySet[2])
-    // ,
-    // makeColorfulText('tommi.diy')
+    createEmoji(displaySet[2]),
+    makeColorfulText('tommi.diy')
 ];
 
 function randInterval(min, max) {
@@ -131,60 +126,60 @@ function makeItRain() {
     setTimeout(() => { fallingElement.remove(); },duration * 1000);
 }
 
-setInterval(makeItRain, 200);
+// setInterval(makeItRain, 20);
 
 const titleFontSet = [ //no i don't care that i'm downloading like 60 fonts for a gag on a links page, it looks cool
-    `"Playwrite HR", cursive`,
-    `"Coral Pixels", serif`,
-    `"Press Start 2P", system-ui`,
-    `"DotGothic16", sans-serif`,
-    `"Pixelify Sans", sans-serif`,
-    `"Varela Round", sans-serif`,
-    `"Micro 5 Charted", sans-serif`,
-    `"Jacquard 12 Charted", system-ui`,
-    `"Doto", sans-serif`,
-    `"Danfo", serif`,
-    `"Caesar Dressing", system-ui`,
-    `"Eater", serif`,
-    `"Monoton", sans-serif`,
-    `"Butterfly Kids", cursive`,
-    `"Rubik Glitch", system-ui`,
-    `"Rubik Beastly", system-ui`,
-    `"Monofett", monospace`,
-    `"Nabla", system-ui`,
-    `"Rock 3D", system-ui`,
-    `"Kablammo", system-ui`,
-    `"Nosifer", sans-serif`,
-    `"Frijole", system-ui`,
-    `"Rubik Puddles", system-ui`,
-    `"Bonbon", cursive`,
-    `"Palette Mosaic", system-ui`,
-    `"Chokokutai", system-ui`,
-    `"Rubik Storm", system-ui`,
-    `"Hanalei", system-ui`,
-    `"Kalnia Glaze", serif`,
-    `"Blaka Ink", system-ui`,
-    `"Honk", system-ui`,
-    `"Reem Kufi Fun", sans-serif`,
-    `"Foldit", sans-serif`,
-    `"Creepster", system-ui`,
-    `"Butcherman", system-ui`,
-    `"Ruslan Display", sans-serif`,
-    `"Asset", serif`,
-    `"Sancreek", serif`,
-    `"WindSong", cursive;`,
-    `"Arizonia", cursive`,
-    `"Snowburst One", system-ui`,
-    `"Italianno", cursive`,
-    `"Hachi Maru Pop", cursive`,
-    `"Rock Salt", cursive`,
-    `"Knewave", system-ui`,
-    `"Libre Barcode 39 Text", system-ui`,
-    `"Plaster", system-ui`,
-    `"Big Shoulders Stencil", sans-serif`,
-    `"Zilla Slab Highlight", serif`,
-    `"Geostar", serif`,
-    `"Tsukimi Rounded", sans-serif`,
+    // `"Playwrite HR", cursive`,
+    // `"Coral Pixels", serif`,
+    // `"Press Start 2P", system-ui`,
+    // `"DotGothic16", sans-serif`,
+    // `"Pixelify Sans", sans-serif`,
+    // `"Varela Round", sans-serif`,
+    // `"Micro 5 Charted", sans-serif`,
+    // `"Jacquard 12 Charted", system-ui`,
+    // `"Doto", sans-serif`,
+    // `"Danfo", serif`,
+    // `"Caesar Dressing", system-ui`,
+    // `"Eater", serif`,
+    // `"Monoton", sans-serif`,
+    // `"Butterfly Kids", cursive`,
+    // `"Rubik Glitch", system-ui`,
+    // `"Rubik Beastly", system-ui`,
+    // `"Monofett", monospace`,
+    // `"Nabla", system-ui`,
+    // `"Rock 3D", system-ui`,
+    // `"Kablammo", system-ui`,
+    // `"Nosifer", sans-serif`,
+    // `"Frijole", system-ui`,
+    // `"Rubik Puddles", system-ui`,
+    // `"Bonbon", cursive`,
+    // `"Palette Mosaic", system-ui`,
+    // `"Chokokutai", system-ui`,
+    // `"Rubik Storm", system-ui`,
+    // `"Hanalei", system-ui`,
+    // `"Kalnia Glaze", serif`,
+    // `"Blaka Ink", system-ui`,
+    // `"Honk", system-ui`,
+    // `"Reem Kufi Fun", sans-serif`,
+    // `"Foldit", sans-serif`,
+    // `"Creepster", system-ui`,
+    // `"Butcherman", system-ui`,
+    // `"Ruslan Display", sans-serif`,
+    // `"Asset", serif`,
+    // `"Sancreek", serif`,
+    // `"WindSong", cursive;`,
+    // `"Arizonia", cursive`,
+    // `"Snowburst One", system-ui`,
+    // `"Italianno", cursive`,
+    // `"Hachi Maru Pop", cursive`,
+    // `"Rock Salt", cursive`,
+    // `"Knewave", system-ui`,
+    // `"Libre Barcode 39 Text", system-ui`,
+    // `"Plaster", system-ui`,
+    // `"Big Shoulders Stencil", sans-serif`,
+    // `"Zilla Slab Highlight", serif`,
+    // `"Geostar", serif`,
+    // `"Tsukimi Rounded", sans-serif`,
     `"DM Serif Text", serif`
 ]
 shuffle(titleFontSet)
