@@ -1,5 +1,5 @@
 buttons = [
-    { label: "Donate to help trans people get to safety", url: "https://www.zeffy.com/en-US/donation-form/ab0d171c-cf60-425d-ace5-e805b00f9388?impact_chain_source=tommidiy%40gmail.com"},
+    { label: "Donate to help trans people get gender affirming care", url: "https://www.nomoredysphoria.org"},
     { label: "diy insta", url:  "https://www.instagram.com/tommi.diy/" },
     { label: "personal insta", url:  "https://www.instagram.com/code.tommi/" },
     { label: "github", url:  "https://github.com/tommidiy" }
