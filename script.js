@@ -1,4 +1,5 @@
 buttons = [
+    { label: "6/11 - Transiversary Show!", url: "https://link.dice.fm/W4aec21bbd81"},
     { label: "Donate to help trans people get gender affirming care", url: "https://www.nomoredysphoria.org"},
     { label: "diy insta", url:  "https://www.instagram.com/tommi.diy/" },
     { label: "personal insta", url:  "https://www.instagram.com/code.tommi/" },
