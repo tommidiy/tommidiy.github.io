@@ -1,10 +1,10 @@
 buttons = [
-    { label: "7/26 - Pigeon Pit, Propolis @ Amplified", url: "https://www.eventbrite.com/e/pigeon-pit-propolis-more-amplified-studios-tickets-1992884266488"},
+    { label: "9/23 - The Erasers, Saturnia, Heart Swap, Cotton Brain", url: "https://link.dice.fm/P6899ec48aee"},
     { label: "Donate to help trans people get gender affirming care", url: "https://www.nomoredysphoria.org"},
     { label: "insta", url:  "https://www.instagram.com/tommi.diy/" },
     // { label: "personal insta", url:  "https://www.instagram.com/code.tommi/" },
     { label: "github", url:  "https://github.com/tommidiy" }
-    // { label: "linkedin", url:  "https://example.com" },
+    { label: "linkedin", url:  "https://www.linkedin.com/in/thomas-p-345410149" },
     // { label: "contact", url:  "https://example.com" }
 ]
 
