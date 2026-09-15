@@ -3,8 +3,8 @@ buttons = [
     { label: "Donate to help trans people get gender affirming care", url: "https://www.nomoredysphoria.org"},
     { label: "insta", url:  "https://www.instagram.com/tommi.diy/" },
     // { label: "personal insta", url:  "https://www.instagram.com/code.tommi/" },
-    { label: "github", url:  "https://github.com/tommidiy" }
-    { label: "linkedin", url:  "https://www.linkedin.com/in/thomas-p-345410149" },
+    { label: "github", url:  "https://github.com/tommidiy" },
+    { label: "linkedin", url:  "https://www.linkedin.com/in/thomas-p-345410149" }
     // { label: "contact", url:  "https://example.com" }
 ]
 
